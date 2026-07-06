@@ -75,28 +75,40 @@
 <section id="slider">
   <div id="home-carousel" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
-      <div class="item active" style="background-image:url(images/Slider/20.png)">
-        <div class="carousel-caption container">
-          <div class="row">
-            <div class="col-md-7 col-sm-12 col-xs-12">
-              <h1>Content de vous recevoir</h1>
-              <h2>FALIHERY Annicet</h2>
-              <p>Je suis Falihery Annicet, spécialiste en Communication Numérique et Management de Projet. Je conçois des stratégies digitales, pilote des projets et développe des solutions de communication adaptées aux enjeux des organisations. Grâce à ma formation en Relations Publiques et Communication Organisationnelle, je combine vision stratégique, créativité et maîtrise des outils numériques pour accompagner le développement, la visibilité et la performance des entreprises.</p>
-            </div>
-          </div>
-        </div>
+<div class="item active" style="background-image:url(images/Slider/20.png); position:relative;">
+  <div class="carousel-caption container">
+    <div class="row">
+      <div class="col-md-7 col-sm-12 col-xs-12">
+        <h1>Content de vous recevoir</h1>
+        <h2>FALIHERY Annicet</h2>
+        <p>Je suis Falihery Annicet, spécialiste en Communication Numérique et Management de Projet. Je conçois des stratégies digitales, pilote des projets et développe des solutions de communication adaptées aux enjeux des organisations. Grâce à ma formation en Relations Publiques et Communication Organisationnelle, je combine vision stratégique, créativité et maîtrise des outils numériques pour accompagner le développement, la visibilité et la performance des entreprises.</p>
       </div>
+    </div>
+  </div>
+  <!-- BOUTON CV - Taille moyenne, collé en bas à droite -->
+  <a href="documents/CV_Falihery_Annicet.pdf" download="CV_Falihery_Annicet" 
+     style="position:absolute; bottom:12px; right:12px; z-index:10;
+            background:#0d6efd; color:#fff; padding:10px 22px; 
+            border-radius:30px; text-decoration:none; font-weight:600; 
+            font-size:15px; box-shadow:0 4px 15px rgba(0,0,0,0.25);
+            border:1.5px solid rgba(255,255,255,0.6); 
+            transition: all 0.3s ease;"
+     onmouseover="this.style.background='#0a58ca'; this.style.transform='scale(1.05)'; this.style.boxShadow='0 6px 20px rgba(0,0,0,0.35)';" 
+     onmouseout="this.style.background='#0d6efd'; this.style.transform='scale(1)'; this.style.boxShadow='0 4px 15px rgba(0,0,0,0.25)';">
+     <i class="fa fa-download" style="margin-right:6px; font-size:13px;"></i> Télécharger mon CV
+  </a>
+</div>
       <div class="item" style="background:url(images/Slider/50.png) center top/cover no-repeat">
-        <div class="carousel-caption container">
-          <div class="row">
-            <div class="col-md-7 col-sm-12 col-xs-12">
-              <h1>Mon parcours</h1>
-              <h2 style="font-size: 32px;">Communication, médias & gestion de projet</h2>
-              <p>Formé sur le terrain à travers des expériences en marketing, journalisme et relation client, je sais aussi bien rédiger un contenu éditorial que concevoir une affiche percutante sur Photoshop, InDesign ou Canva. Une double compétence stratégique et créative, au service de vos projets de communication.</p>
-            </div>
-          </div>
-        </div>
+  <div class="carousel-caption container">
+    <div class="row">
+      <div class="col-md-7 col-sm-12 col-xs-12">
+        <h1>Mon parcours</h1>
+        <h2 style="font-size: 32px;">Communication Digitale | Relations Publiques | Management de Projet</h2>
+        <p>Fort d'une double compétence en communication numérique et en gestion de projet, je conçois des stratégies de communication percutantes, j'anime des relations publiques et je pilote des projets de A à Z. Du terrain à la création graphique, je maîtrise les outils du marketing digital, du journalisme et du design pour donner vie à vos idées et renforcer votre visibilité.</p>
       </div>
+    </div>
+  </div>
+</div>
       <div class="item" style="background-image:url(images/Slider/30.png)">
         <div class="carousel-caption container">
           <div class="row">
@@ -119,7 +131,7 @@
       <div class="heading">
         <h2>MON PARCOURS ACADEMI<span>QUE</span></h2>
         <div class="line"></div>
-        <p><span><strong>P</strong></span>endant les quatres dernières années de mon parcours universitaire, j'ai étudié à l'Ecole de Management et d'Innovation Technologique (EMIT) Andrainjato Fianarantsoa</p>
+        <p><span><strong>P</strong></span>endant les quatre dernières années de mon parcours universitaire, j'ai étudié à l'Ecole de Management et d'Innovation Technologique (EMIT) Andrainjato Fianarantsoa</p>
       </div>
     </div>
     <div class="row">
@@ -188,13 +200,15 @@
   <div class="container">
     <div class="col-md-8 col-md-offset-2">
       <div class="heading">
-        <h2>EXPERIENCE <span>PROFESSIONNELLE</span></h2>
+        <h2>EXPERIENCES <span>PROFESSIONNELLE</span></h2>
         <div class="line"></div>
         <p><span><strong>A</strong></span>u cours de mon parcours académique et professionnel, j’ai eu l’opportunité de mettre en pratique mes compétences à travers différentes expériences de stage, chacune ayant contribué à enrichir mon savoir-faire et ma vision du métier.</p>
       </div>
     </div>
+
+    <!-- RANGÉE 1 : INVISO + NOUVELLE EXPÉRIENCE -->
     <div class="row">
-      <!-- Paire 1 -->
+      <!-- 1. INVISO Group -->
       <div class="col-md-6 blog-sec">
         <div class="blog-info">
           <img src="images/Blog/2.jpg" class="img-responsive" alt="" height="585">
@@ -211,6 +225,30 @@
         </div>
       </div>
       
+      <!-- 2. NOUVELLE EXPÉRIENCE (à personnaliser) -->
+      <div class="col-md-6 blog-sec">
+        <div class="blog-info">
+          <!-- Remplacez par le chemin de votre image -->
+          <img src="images/Blog/7.png" class="img-responsive" alt="">
+          <div class="data-meta">
+            <strong>Dec 2025 - </strong>
+            <strong>Jan 2026</strong>
+          </div>
+          <!-- Remplacez par le titre de votre poste -->
+          <a href="#"><h5>Inventoriste</h5></a>
+          <ul class="blog-icon">
+            <li><i class="fa fa-pencil"></i><a href="#"><h6>INVISO Group (Pôle Agri)</h6></a></li>
+            <li class="comment"><i class="fa fa-comment"></i><a href="#"></a></li>
+          </ul>
+          <!-- Remplacer par la description de vos missions -->
+          <p>Recruté en tant qu'Inventoriste chez INVISO Group, j'ai pris en charge le suivi et le contrôle des stocks de matières premières et de produits finis. Mes responsabilités incluaient la réalisation d'inventaires physiques, la mise à jour des bases de données pour assurer une traçabilité fiable, et l'analyse des écarts pour en comprendre les origines. J'ai également œuvré à l'optimisation des espaces de stockage pour améliorer la rotation des produits et soutenir les équipes logistiques et de production. Cette mission m'a permis de développer une rigueur accrue, un œil attentif aux détails et une grande adaptabilité dans un environnement professionnel exigeant.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- RANGÉE 2 : MVola + Délégué -->
+    <div class="row">
+      <!-- 3. MVola -->
       <div class="col-md-6 blog-sec">
         <div class="blog-info">
           <img src="images/Blog/6.jpg" class="img-responsive" alt="">
@@ -226,10 +264,8 @@
           <p>En tant que commercial terrain chez MVola, j'ai assuré le suivi des activités auprès des utilisateurs et clients, en collectant et remontant les informations essentielles à la hiérarchie. J'ai accompagné les utilisateurs dans l'utilisation des services, participé à des actions de sensibilisation et de communication de proximité, et identifié les besoins et difficultés rencontrés sur le terrain. Cette expérience m'a permis de développer mon sens de l'observation, mon adaptabilité et ma capacité à interagir avec une diversité de publics dans un environnement dynamique.</p>
         </div>
       </div>
-    </div>
-
-    <div class="row">
-      <!-- Paire 2 -->
+      
+      <!-- 4. Délégué de Classe -->
       <div class="col-md-6 blog-sec">
         <div class="blog-info">
           <img src="images/Blog/5.png" class="img-responsive" alt="">
@@ -245,7 +281,11 @@
           <p>En tant que délégué de classe, j'ai assuré l'interface entre les étudiants, les enseignants et l'administration, facilitant la circulation de l'information et la coordination des activités académiques. Cette responsabilité m'a permis de développer une grande rigueur dans le suivi des échéances et des consignes administratives, tout en renforçant mon écoute active et ma capacité à gérer les préoccupations des étudiants. J'ai également contribué à la résolution des conflits et au maintien d'un climat collaboratif, consolidant ainsi mon sens du dialogue et mon aptitude à fédérer une équipe autour d'objectifs communs.</p>
         </div>
       </div>
-      
+    </div>
+
+    <!-- RANGÉE 3 : RTV VIVA (seule, centrée ou à gauche) -->
+    <div class="row">
+      <!-- 5. RTV VIVA -->
       <div class="col-md-6 blog-sec">
         <div class="blog-info">
           <img src="images/Blog/4.jpg" class="img-responsive" alt="">
@@ -260,12 +300,13 @@
             <li><i class="fa fa-pencil"></i><a href="#"><h6>Station RTV VIVA Anjoma Fianarantsoa</h6></a></li>
             <li class="comment"><i class="fa fa-comment"></i><a href="#"></a></li>
           </ul>
-          <p>Durant mes stages à RTV VIVA, j'ai contribué à la production de contenus médiatiques en assurant la collecte d'informations sur le terrain, la réalisation de reportages, la rédaction de contenus éditoriaux et la couverture d'événements. J'ai également participé à l'enregistrement de voix off ainsi qu'au montage audio et vidéo pour différents supports de diffusion.
-
-Cette immersion dans l'univers des médias m'a permis de développer une solide compréhension du traitement de l'information, de la communication audiovisuelle et des exigences du travail journalistique, tout en renforçant ma capacité à produire des contenus pertinents, fiables et adaptés à différents publics.</p>
+          <p>Durant mes stages à RTV VIVA, j'ai contribué à la production de contenus médiatiques en assurant la collecte d'informations sur le terrain, la réalisation de reportages, la rédaction de contenus éditoriaux et la couverture d'événements. J'ai également participé à l'enregistrement de voix off ainsi qu'au montage audio et vidéo pour différents supports de diffusion. Cette immersion dans l'univers des médias m'a permis de développer une solide compréhension du traitement de l'information, de la communication audiovisuelle et des exigences du travail journalistique, tout en renforçant ma capacité à produire des contenus pertinents, fiables et adaptés à différents publics.</p>
         </div>
       </div>
+      <!-- Espace vide pour conserver la grille (ou vous pouvez supprimer cette div) -->
+      <div class="col-md-6"></div>
     </div>
+
   </div>
 </section>
 <!--Features-Section-Start-->
@@ -562,76 +603,130 @@ Cette immersion dans l'univers des médias m'a permis de développer une solide 
         <div class="item">
           <div  class="col-md-10 col-md-offset-1"> <img src="images/Testimonials/2.jpg" class="img-circle" alt="">
             <h5>  Chanter </h5>
-            <h6>FALIHERY Annicet</h6>
+            <h6>Ce qui m’anime</h6>
           </div>
         </div>
         <div  class="col-md-10 col-md-offset-1"> <img src="images/Testimonials/3.jpg" class="img-circle" alt="">
           <h5> Jouer de la music </h5>
-          <h6>FALIHERY Annicet</h6>
+          <h6>Ce qui m’anime</h6>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!--Blog-Section-Start-->
+<!-- CONTACT SECTION START -->
 <section id="contact">
-  <div class="container">
-    <div class="col-md-8 col-md-offset-2">
-      <div class="heading">
-        <h2>CONTACTEZ <span>MOI</span></h2>
-        <div class="line"></div>
-        <p><span><strong>D</strong></span>isponible et à l’écoute, je serais heureux de collaborer avec vous pour donner vie à vos projets et transformer vos idées en réalisations concrètes. Je vous invite à me contacter afin d’échanger sur vos besoins et découvrir comment je peux contribuer à la réussite de vos objectifs. </p>
-      </div>
-    </div>
-    <div class="text-center">
-      <div class="col-md-6 col-sm-6 contact-sec-1">
-        <h4>CONTACTEZ <span>MOI</span></h4>
-        <ul class="contact-form">
-          <li><i class="fa fa-map-marker"></i>
-            <h6><strong>Addresse : </strong> Antananarivo, Madagascar </h6>
-          </li>
-          <li><i class="fa fa-envelope"></i>
-            <h6><strong>Mail Us : </strong> <a href="#">tafitaannicet@gmail.com</a></h6>
-          </li>
-          <li><i class="fa fa-phone"></i>
-            <h6><strong>Phone : </strong> 034 99 050 29 / 038 82 066 99 </h6>
-          </li>
-          <li><i class="fa fa-wechat"></i>
-            <h6><strong>Site Web : </strong> <a href="https://faliheryannicet.github.io/">faliheryannicet.github.io/</a> </h6>
-          </li>
-        </ul>
-      </div>
-      <div class="col-md-6 col-sm-6">
-        <form id="main-contact-form" name="contact-form" method="post" action="#">
-          <div class="row  wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <div class="col-sm-6">
-              <div class="form-group">
-                <input type="text" name="nom" class="form-control" placeholder="Nom" required="required">
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="form-group">
-                <input type="email" name="email" class="form-control" placeholder="Adresse Email" required="required">
-              </div>
-            </div>
-          </div>
-          <div class="form-group">
-            <input type="text" name="Objet" class="form-control" placeholder="Objet" required="required">
-          </div>
-          <div class="form-group">
-            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Entrer votre message" required="required"></textarea>
-          </div>
-          <a class="btn-send col-md-12 col-sm-12 col-xs-12" href="#">Envoyer maintenant</a>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
-<footer id="footer">
-  <div class="bg-sec">
     <div class="container">
-      <h2>DANS L'ATTENTE <strong>DE VOTRE </strong>REPONSE!</h2>
+
+        <!-- TITRE -->
+        <div class="col-md-8 col-md-offset-2">
+            <div class="heading">
+                <h2>CONTACTEZ <span>MOI</span></h2>
+                <div class="line"></div>
+                <p>
+                    <span><strong>D</strong></span>isponible et à l’écoute, je serais heureux de collaborer avec vous pour donner vie à vos projets et transformer vos idées en réalisations concrètes. Je vous invite à me contacter afin d’échanger sur vos besoins et découvrir comment je peux contribuer à la réussite de vos objectifs.
+                </p>
+            </div>
+        </div>
+
+        <!-- CONTENU CONTACT : 2 colonnes -->
+        <div class="row">
+
+            <!-- COLONNE GAUCHE : INFOS DE CONTACT -->
+            <div class="col-md-6 col-sm-6 contact-sec-1">
+                <ul class="contact-form">
+
+                    <!-- ADRESSE (libellé supprimé) -->
+                    <li>
+                        <i class="fa fa-map-marker icon-location"></i>
+                        <h6>Antananarivo, Madagascar</h6>
+                    </li>
+
+                    <!-- EMAIL -->
+                    <li>
+                        <i class="fa fa-envelope icon-email" style="color: #EA4335;"></i>
+                        <h6>
+                            <a href="mailto:tafitaannicet@gmail.com">tafitaannicet@gmail.com</a>
+                        </h6>
+                    </li>
+
+                    <!-- TELEPHONE -->
+                    <li>
+                        <i class="fa fa-phone icon-phone" style="color: #4CAF50;"></i>
+                        <h6>
+                            <a href="tel:+261349905029">034 99 050 29</a> /
+                            <a href="tel:+261388206699">038 82 066 99</a>
+                        </h6>
+                    </li>
+
+                    <!-- WHATSAPP -->
+                    <li>
+                        <i class="fa fa-whatsapp icon-whatsapp" style="color: #25D366;"></i>
+                        <h6>
+                            <a href="https://wa.me/261349905029" target="_blank">034 99 050 29</a>
+                        </h6>
+                    </li>
+
+                    <!-- FACEBOOK -->
+                    <li>
+                        <i class="fa fa-facebook icon-facebook" style="color: #1877F2;"></i>
+                        <h6>
+                            <a href="https://www.facebook.com/falihery.annicet" target="_blank">Falihery Annicet</a>
+                        </h6>
+                    </li>
+
+                    <!-- LINKEDIN -->
+                    <li>
+                        <i class="fa fa-linkedin icon-linkedin" style="color: #0A66C2;"></i>
+                        <h6>
+                            <a href="https://www.linkedin.com/in/falihery-tafita-annicet-mario-aaaa2a378/" target="_blank">Mon Profil LinkedIn</a>
+                        </h6>
+                    </li>
+
+                </ul>
+            </div>
+
+            <!-- COLONNE DROITE : FORMULAIRE -->
+            <div class="col-md-6 col-sm-6">
+                <form id="main-contact-form" name="contact-form" method="post" action="#">
+                    <div class="row wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input type="text" name="nom" class="form-control" placeholder="Nom" required="required">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input type="email" name="email" class="form-control" placeholder="Adresse Email" required="required">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="Objet" class="form-control" placeholder="Objet" required="required">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="message" class="form-control" rows="4" placeholder="Entrer votre message" required="required"></textarea>
+                    </div>
+                    <a class="btn-send col-md-12 col-sm-12 col-xs-12" href="#">Envoyer maintenant</a>
+                </form>
+            </div>
+
+        </div>
+        <!-- /row -->
+
     </div>
+    <!-- /container -->
+</section>
+<!-- CONTACT SECTION END -->
+
+<!-- FOOTER -->
+<footer id="footer">
+    <div class="bg-sec">
+        <div class="container">
+            <h2>DANS L'ATTENTE <strong>DE VOTRE </strong>REPONSE!</h2>
+        </div>
+    </div>
+</footer>
   </div>
 <!--Jquery-->
 <script type="text/javascript" src="js/jquery.min.js"></script>

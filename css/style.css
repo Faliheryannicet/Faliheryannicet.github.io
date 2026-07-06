@@ -1357,3 +1357,117 @@ color:#fff;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
 }
+/* =========================
+   CONTACT SECTION ICONS
+========================= */
+
+/* Alignement des icônes */
+.contact-form li i {
+  width: 28px;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+/* =========================
+   COLORS ICONS
+========================= */
+
+/* Email */
+.icon-email {
+  color: #1a73e8;
+}
+
+/* WhatsApp */
+.icon-whatsapp {
+  color: #25D366;
+}
+
+/* Facebook */
+.icon-facebook {
+  color: #1877F2;
+}
+
+/* LinkedIn */
+.icon-linkedin {
+  color: #0A66C2;
+}
+
+/* Téléphone */
+.icon-phone {
+  color: #111;
+}
+
+/* Adresse */
+.icon-location {
+  color: #e74c3c;
+}
+
+/* Site web */
+.icon-web {
+  color: #555;
+}
+
+/* =========================
+   CONTACT LINKS STYLE
+========================= */
+
+.contact-form a {
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+/* Hover effet */
+.contact-form a:hover {
+  color: #ff4a57;
+  padding-left: 3px;
+}
+
+/* =========================
+   LIST STYLE CLEAN
+========================= */
+
+.contact-form {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-form li {
+  margin-bottom: 12px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* =========================
+   CONTACT TITLE STYLE (optionnel)
+========================= */
+
+#contact h4 {
+  font-weight: 700;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+/* =========================
+   ICON HOVER EFFECT (bonus pro)
+========================= */
+
+.contact-form li i {
+  transition: transform 0.3s ease;
+}
+
+.contact-form li:hover i {
+  transform: scale(1.2);
+}
+/* Amélioration de la typo pour les textes du carousel */
+.carousel-caption p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #ffffff;
+}
