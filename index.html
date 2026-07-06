@@ -112,7 +112,7 @@
       <div class="features-sec">
         <div class="col-md-6 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
           <div class="media service-box">
-            <div class="pull-left"> <i class="fa fa-line-chart"></i> </div>
+            <div class="pull-left"> <i class="fa fa-graduation-cap"></i> </div>
             <div class="media-body">
               <h5 class="media-heading">2025-2026 : Master 2 (en cours ...) en Informations, Communication et Multimédia</h5>
               <p>Parcours : Communication Numérique et Management du Projet</p>
@@ -121,7 +121,7 @@
         </div>
         <div class="col-md-6 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
           <div class="media service-box">
-            <div class="pull-left"> <i class="fa fa-cubes"></i> </div>
+            <div class="pull-left"> <i class="fa fa-book"></i> </div>
             <div class="media-body">
               <h5 class="media-heading">2024 : Diplôme de Licence professionnelle en Relations Publiques et Multimédia</h5>
               <p>Parcours : Relations Publiques et Communication Organisationnelle</p>
@@ -130,7 +130,7 @@
         </div>
         <div class="col-md-6 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">
           <div class="media service-box">
-            <div class="pull-left"> <i class="fa fa-language"></i> </div>
+            <div class="pull-left"> <i class="fa fa-certificate"></i> </div>
             <div class="media-body">
               <h5 class="media-heading">2021 : Baccalauréat Série A2</h5>
               <p>Collège Sacré-Coeur Toliara Centre (Tsianaloky)</p>
@@ -139,6 +139,9 @@
         </div>
       </div>
     </div>
+  </div>
+</section>
+
     <div class="experience">
       <div class="col-sm-6 col-xs-6">
         <div class="our-skills wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
@@ -606,29 +609,34 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-md-6 col-sm-6">
-                <form id="main-contact-form" name="contact-form" method="post" action="#">
-                    <div class="row wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <input type="text" name="nom" class="form-control" placeholder="Nom" required="required">
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <input type="email" name="email" class="form-control" placeholder="Adresse Email" required="required">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" name="Objet" class="form-control" placeholder="Objet" required="required">
-                    </div>
-                    <div class="form-group">
-                        <textarea name="message" id="message" class="form-control" rows="4" placeholder="Entrer votre message" required="required"></textarea>
-                    </div>
-                    <a class="btn-send col-md-12 col-sm-12 col-xs-12" href="#">Envoyer maintenant</a>
-                </form>
+         <div class="col-md-6 col-sm-6">
+    <form id="main-contact-form" name="contact-form" method="post" action="https://formspree.io/f/mlgvybll">
+        <div class="row wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <input type="text" name="nom" class="form-control" placeholder="Nom" required="required">
+                </div>
             </div>
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <input type="email" name="email" class="form-control" placeholder="Adresse Email" required="required">
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="text" name="Objet" class="form-control" placeholder="Objet" required="required">
+        </div>
+        <div class="form-group">
+            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Entrer votre message" required="required"></textarea>
+        </div>
+        <!-- Champs cachés pour Formspree (ne modifient pas l'affichage) -->
+        <input type="hidden" name="_captcha" value="true">
+        <!-- Optionnel : rediriger vers une page de remerciement (modifiez l'URL) -->
+        <input type="hidden" name="_next" value="https://votresite.com/merci.html">
+        <!-- Le bouton reste un <a>, mais on lui ajoute un onclick pour soumettre le formulaire -->
+        <a class="btn-send col-md-12 col-sm-12 col-xs-12" href="javascript:void(0);" onclick="document.getElementById('main-contact-form').submit();">Envoyer maintenant</a>
+    </form>
+</div>
         </div>
     </div>
 </section>
