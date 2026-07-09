@@ -610,7 +610,7 @@
                 </ul>
             </div>
          <div class="col-md-6 col-sm-6">
-    <form id="main-contact-form" name="contact-form" method="post" action="https://formspree.io/f/mlgvybll">
+    <form id="main-contact-form" name="contact-form" method="post" action="https://formspree.io/f/meebbzgl">
         <div class="row wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
             <div class="col-sm-6">
                 <div class="form-group">
@@ -629,25 +629,15 @@
         <div class="form-group">
             <textarea name="message" id="message" class="form-control" rows="4" placeholder="Entrer votre message" required="required"></textarea>
         </div>
-        <!-- Champs cachés pour Formspree (ne modifient pas l'affichage) -->
+        
+        <!-- Champs cachés pour Formspree -->
         <input type="hidden" name="_captcha" value="true">
-        <!-- Optionnel : rediriger vers une page de remerciement (modifiez l'URL) -->
         <input type="hidden" name="_next" value="https://votresite.com/merci.html">
-        <!-- Le bouton reste un <a>, mais on lui ajoute un onclick pour soumettre le formulaire -->
-        <a class="btn-send col-md-12 col-sm-12 col-xs-12" href="javascript:void(0);" onclick="document.getElementById('main-contact-form').submit();">Envoyer maintenant</a>
+        
+        <!-- Bouton corrigé : type="submit" au lieu d'un <a> avec onclick -->
+        <button type="submit" class="btn-send col-md-12 col-sm-12 col-xs-12">Envoyer maintenant</button>
     </form>
 </div>
-        </div>
-    </div>
-</section>
-
-<footer id="footer">
-    <div class="bg-sec">
-        <div class="container">
-            <h2>DANS L'ATTENTE <strong>DE VOTRE </strong>REPONSE!</h2>
-        </div>
-    </div>
-</footer>
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
