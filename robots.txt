@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://faliheryannicet.github.io/sitemap.xml
